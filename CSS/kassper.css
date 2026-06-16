@@ -1100,7 +1100,7 @@ form {
     margin: 20px auto;
     transition: border 1s;
 }
-.footer p:hover { border-bottom: 1px solid var(--main-color); }
+.footer p:first-of-type:hover { border-bottom: 1px solid var(--main-color); }
 
 .footer .social-icons i {
     padding: 10px 0 10px 0;
