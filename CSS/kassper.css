@@ -1032,7 +1032,7 @@ form {
         text-align: center;
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 15% 10% 10% auto;
+        grid-template-rows: 40px 30px 120px;
     }
 }
 .contact .info h4 {
@@ -1059,7 +1059,6 @@ form {
 }
 @media (max-width: 767px) {
     .info address {
-        margin-bottom: 30px;
         grid-row: 2;
         grid-column: 2;
     }
